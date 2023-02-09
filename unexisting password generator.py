@@ -17,7 +17,7 @@ def give_suggestions():
         print(random.choice(password_characters_list), end="")
 
 if user in existing_passwords:
-    print("You cannot use that password. You may choose these passwords.")
+    print("You cannot use that password. You may choose one of these passwords.")
     for i in range(8):
         give_suggestions()
         print("\n")
