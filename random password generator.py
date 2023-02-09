@@ -1,3 +1,5 @@
+# This code will not exactly generate your wi-fi password or something; it justs generates random passwords.
+
 import random
 
 password_characters_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'I', 'J', 'K', 'L', 'M',
@@ -5,9 +7,5 @@ password_characters_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'I', 'J', 'K', 'L
 
 user = int(input("Enter the number of characters in the password: "))
 
-while random.choice(password_characters_list) != "atifas":
-    for i in range(user):
-        print(random.choice(password_characters_list), end="")
-    print("\n")
-
-print("Finally guessed!")
+for i in range(user):
+    print(random.choice(password_characters_list), end="")
