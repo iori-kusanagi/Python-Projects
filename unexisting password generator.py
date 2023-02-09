@@ -1,6 +1,7 @@
 import random
 
-# Have you ever wondered that when we are to make an account on a website, and we choose a password for our account that is already given to another user, the website tells us that we cannot choose that password, and gives suggestions of passwords that are not existing. How does it do that.
+# Have you ever wondered that when we are to make an account on a website, and we choose a password for our account that is already given to another user, 
+# the website tells us that we cannot choose that password, and gives suggestions of passwords that are not existing. How does it do that.
 
 # Let's first make a list of passwords that are already existing.
 existing_passwords = ["noser", "bee", "ghost-rider", "killer"]
